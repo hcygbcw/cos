@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'WSToolbox';
+$dbname = '数据库名称';
 $username = 'root';
-$password = '896252036';
+$password = '数据库密码';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
